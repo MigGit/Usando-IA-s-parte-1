@@ -1,0 +1,99 @@
+[
+    {
+      "tokens": ["valor", "de", "200", "USD"],
+      "ner_tags": ["O", "O", "B-MONEDA", "I-MONEDA"]
+    },
+    {
+      "tokens": ["La", "compra", "es", "de", "500", "USD"],
+      "ner_tags": ["O", "O", "O", "O", "B-MONEDA", "I-MONEDA"]
+    },
+    {
+        "tokens": ["El","producto","102","USD"],
+        "ner_tags": ["O", "O", "B-MONEDA", "I-MONEDA"]
+    },
+    {
+        "tokens": ["El","producto","150","USD"],
+        "ner_tags": ["O", "O", "B-MONEDA", "I-MONEDA"]
+    },
+    {
+        "tokens": ["El","valor","220","USD"],
+        "ner_tags": ["O", "O", "B-MONEDA", "I-MONEDA"]
+    },
+    {
+        "tokens": ["el","costo","77","USD"],
+        "ner_tags": ["O", "O", "B-MONEDA", "I-MONEDA"]
+    },
+    {
+        "tokens": ["product","144","USD"],
+        "ner_tags": ["O", "B-MONEDA", "I-MONEDA"]
+    },
+    {
+        "tokens": ["precio","150","USD"],
+        "ner_tags": ["O", "B-MONEDA", "I-MONEDA"]
+    },
+    {
+        "tokens": ["valor","345","USD"],
+        "ner_tags": ["O", "B-MONEDA", "I-MONEDA"]
+    },
+    {
+        "tokens": ["cost","56","USD"],
+        "ner_tags": ["O", "B-MONEDA", "I-MONEDA"]
+    },
+    {
+        "tokens": ["54","USD","precio"],
+        "ner_tags": ["O", "B-MONEDA", "I-MONEDA"]
+    },
+    {
+        "tokens": ["128","USD","valor"],
+        "ner_tags": ["B-MONEDA", "I-MONEDA", "O"]
+    },
+    {
+        "tokens": ["187","USD","cost0"],
+        "ner_tags": ["B-MONEDA", "I-MONEDA", "O"]
+    },
+    {
+        "tokens": ["El","producto","999","USD"],
+        "ner_tags": ["O", "O", "B-MONEDA", "I-MONEDA"]
+    },
+    {
+        "tokens": ["El","producto","900","USD"],
+        "ner_tags": ["O", "O", "B-MONEDA", "I-MONEDA"]
+    },
+    {
+        "tokens": ["El","valor","800","USD"],
+        "ner_tags": ["O", "O", "B-MONEDA", "I-MONEDA"]
+    },
+    {
+        "tokens": ["el","costo","500","USD"],
+        "ner_tags": ["O", "O", "B-MONEDA", "I-MONEDA"]
+    },
+    {
+        "tokens": ["producto","700","USD"],
+        "ner_tags": ["O", "B-MONEDA", "I-MONEDA"]
+    },
+    {
+        "tokens": ["precio","600","USD"],
+        "ner_tags": ["O", "B-MONEDA", "I-MONEDA"]
+    },
+    {
+        "tokens": ["valor","500","USD"],
+        "ner_tags": ["O", "B-MONEDA", "I-MONEDA"]
+    },
+    {
+        "tokens": ["costo","400","USD"],
+        "ner_tags": ["O", "B-MONEDA", "I-MONEDA"]
+    },
+    {
+        "tokens": ["300","USD","precio"],
+        "ner_tags": ["B-MONEDA", "I-MONEDA", "O"]
+    },
+    {
+        "tokens": ["200","USD","valor"],
+        "ner_tags": ["B-MONEDA", "I-MONEDA", "O"]
+    },
+    {
+        "tokens": ["100","USD","costo"],
+        "ner_tags": ["B-MONEDA", "I-MONEDA", "O"]
+    }
+  ]
+  
