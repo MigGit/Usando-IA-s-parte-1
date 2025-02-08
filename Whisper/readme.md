@@ -11,7 +11,7 @@ Para el ejemplo se utilizar el audio del video de
 Para este ejemplo tener en cuenta la cantidad de memoria VRAM de la tarjeta grafica para su correcto funcionamiento se debe seleccionar el modelo según el detalle de la siguiente tabla:
 
 | Modelo | Tamaño | GPU RAM |
-| ------ | ------ |------ |------ |
+| ------ | ------ | ------- |
 |tiny|39M|2G VRAM|
 |base|74M|4G VRAM|
 |medium|139M|8G VRAM|
