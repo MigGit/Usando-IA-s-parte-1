@@ -4,7 +4,8 @@ from transformers import pipeline
 ner_pipeline = pipeline("token-classification", 
                         model="bert_monedas_model", 
                         tokenizer="bert_monedas_model", 
-                        aggregation_strategy="simple")
+                        aggregation_strategy="simple",
+                        device=-1)
 
 text = "El producto tiene un valor de 200 USD, por hora"
 predicciones = ner_pipeline(text)

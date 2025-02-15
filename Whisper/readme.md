@@ -32,16 +32,16 @@ python.exe -m pip install --upgrade pip
 Creación de ambiente de ejecución, para la carga de las librerías sin afectar el ambiente principal
 
 ```sh
-python -m venv ejenple_whisper
+python -m venv ejemplo_whisper
 # Linux
     # Activa Enviroment
-    source ejenple_whisper/Scripts/activate 
+    source ejemplo_whisper/Scripts/activate 
 
 # Windows
     # Activa Enviroment
-    ejenple_whisper\Scripts\activate.bat
+    ejemplo_whisper\Scripts\activate.bat
     # Desactiva Enviroment
-    ejenple_whisper\Scripts\deactivate.bat
+    ejemplo_whisper\Scripts\deactivate.bat
 ```
 
 ## Ejecucion del ejemplo 

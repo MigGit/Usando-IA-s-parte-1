@@ -1,6 +1,7 @@
-BERT/ejemple_bert/**
+BERT/ejemplo_bert/**
 BERT/bert_monedas_model/**
-Whisper/ejenple_whisper/**
+Whisper/ejemplo_whisper/**
 Whisper/traduccion/**
 Whisper/transcripcion/**
-Helsinki-NLP_OPUS/ejemple_opus/**
+Helsinki-NLP_OPUS/ejemplo_opus/**
+ejemplo_off_line/**

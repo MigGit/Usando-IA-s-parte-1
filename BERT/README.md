@@ -19,7 +19,7 @@ python.exe -m pip install --upgrade pip
 Creación de ambiente de ejecución, para la carga de las librerías sin afectar el ambiente principal
 
 ```sh
-python -m venv ejemple_bert
+python -m venv ejemplo_bert
 # Linux
     # Activa Enviroment
     source ejenplo_bert/Scripts/activate 

@@ -41,7 +41,7 @@
     },
     {
         "tokens": ["54","USD","precio"],
-        "ner_tags": ["O", "B-MONEDA", "I-MONEDA"]
+        "ner_tags": ["B-MONEDA", "I-MONEDA","O"]
     },
     {
         "tokens": ["128","USD","valor"],

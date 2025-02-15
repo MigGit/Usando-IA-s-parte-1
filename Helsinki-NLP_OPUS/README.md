@@ -22,16 +22,16 @@ python.exe -m pip install --upgrade pip
 Creación de ambiente de ejecución, para la carga de las librerías sin afectar el ambiente principal
 
 ```sh
-python -m venv ejemple_opus
+python -m venv ejemplo_opus
 # Linux
     # Activa Enviroment
-    source ejemple_opus/Scripts/activate 
+    source ejemplo_opus/Scripts/activate 
 
 # Windows
     # Activa Enviroment
-    ejemple_opus\Scripts\activate.bat
+    ejemplo_opus\Scripts\activate.bat
     # Desactiva Enviroment
-    ejemple_opus\Scripts\deactivate.bat
+    ejemplo_opus\Scripts\deactivate.bat
 ```
 
 ## Ejemplos
