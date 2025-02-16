@@ -49,12 +49,12 @@ python -m venv ejemplo_whisper
 Para poder ejecutar el ejemplo se requiere las siguientes librerías:
 
 ```sh
-pip install whisper
+pip install openai-whisper
 pip install numpy==1.26.0
 ```
 
-## Para ejecutar Whisper
-Para este ejemplo tenemos un archivo mp3 ("Todo_es_negociable.mp3") para la prueba. El audio está en español.
+## Para ejecutar Whisper en CMD
+Para este ejemplo tenemos un archivo mp3 ("Todo_es_negociable.mp3" de 18 minutos de duración) para la prueba. El audio está en español.
 
 Whisper traduce automáticamente al inglés. Los archivos quedarán en el directorio “traduccion”.
 
@@ -66,4 +66,32 @@ Para transcribir a texto directamente. Los archivos quedaran en el directorio �
 
 ```sh
 whisper "Todo_es_negociable.mp3" --model base --task transcribe --output_dir transcripcion
+```
+
+## Ejemplo dos Mp3 pequeño
+
+Modelo "base" Mp3 duracion 43 Segundo - Traduccion 12 segundos
+
+```sh
+whisper "Todo_es_negociable_muestra.mp3" --language es --model base --task translate --output_dir traduccion
+```
+
+Modelo "base" Mp3 duracion 43 Segundo - Traduccion 9 segundos
+
+```sh
+whisper "Todo_es_negociable_muestra.mp3" --language es --model base --task transcribe --output_dir transcripcion
+```
+
+## Para ejecutar Whisper en script python
+
+Whisper traduce al inglés. Muestra por consola el resultado de la traducción.
+
+```sh
+python.exe .\01_EjemploTranslate.py
+```
+
+Para transcribir a texto. Muestra por consola el resultado de la trascripción.
+
+```sh
+python.exe .\02_EjemploTranscribe.py
 ```

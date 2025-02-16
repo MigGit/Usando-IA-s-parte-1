@@ -59,7 +59,7 @@ Este es el camino.
 ### Traslada_ES_EN.py
 
 ```sh
-python.exe .\Traslada_ES_EN.py
+python.exe .\01_Traslada_ES_EN.py
 ......
 Texto en español: El producto tiene un valor de 200 USD por hora
 Traducción en inglés: The product has a value of USD 200 per hour
@@ -68,7 +68,7 @@ Traducción en inglés: The product has a value of USD 200 per hour
 ### Traslada_ES_FR.py
 
 ```sh
-python.exe .\Traslada_ES_FR.py
+python.exe .\02_Traslada_ES_FR.py
 ......
 Texto en español: El producto tiene un valor de 200 USD por hora
 Traducción en frances: Le produit a une valeur de 200 USD par heure
